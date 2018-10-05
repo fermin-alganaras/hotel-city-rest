@@ -1,0 +1,31 @@
+.banner {
+  margin-top: 70px;
+
+  .indexBanner {
+      max-width: 100%;
+  }
+
+  .cityBanner{
+    margin: auto;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-bottom: 100px;
+    width: 24%;
+    height: 200px;
+    z-index: 888;
+
+    @media (#{$nh-smaller-than-desktop}) {
+
+    }
+  }
+
+  .primary-title {
+      margin: auto;
+      margin-top: 60px;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      font-size: 70px;
+      color: $secondaryColor;
+  }
+}
